@@ -1,0 +1,5 @@
+struct ImageMessage{
+	string frame_id;
+	unsigned long long seq;
+	sequence<char> data;
+};
