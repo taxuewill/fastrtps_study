@@ -88,7 +88,7 @@ size_t ImageMessage::getMaxCdrSerializedSize(size_t current_alignment)
 
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
-    current_alignment += (100 * 1) + eprosima::fastcdr::Cdr::alignment(current_alignment, 1);
+    current_alignment += (1280*720*3 * 1) + eprosima::fastcdr::Cdr::alignment(current_alignment, 1);
 
 
 

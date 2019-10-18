@@ -1,0 +1,3 @@
+struct SimpleTimeRequest{
+long long remote_time;
+};
