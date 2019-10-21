@@ -1,2 +1,4 @@
 build/
 src/time1_demo/build
+src/image_tcp/build
+src/image_time/build

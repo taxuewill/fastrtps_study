@@ -1,0 +1,5 @@
+struct ImageMessage{
+	long long remote_time;
+	long seq;
+	sequence<char> data;
+};
